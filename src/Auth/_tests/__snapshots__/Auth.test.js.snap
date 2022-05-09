@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="root"
+  data-testid="login"
+>
+  <input
+    className="input"
+    onChange={[Function]}
+    placeholder="E-mail Address"
+    type="text"
+    value=""
+  />
+  <input
+    className="input"
+    onChange={[Function]}
+    placeholder="Password"
+    type="password"
+    value=""
+  />
+  <button
+    className="button"
+    onClick={[Function]}
+  >
+    Login
+  </button>
+  <button
+    className="buttonReg"
+    data-testid="toReg-id"
+    onClick={[Function]}
+  >
+    Do not have an account?
+  </button>
+  <button
+    className="buttonReg"
+    data-testid="toReset-id"
+    onClick={[Function]}
+  >
+    Forgot password
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    Google
+  </button>
+</div>
+`;

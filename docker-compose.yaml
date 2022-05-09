@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  app:
+    build: 
+      dockerfile: Dockerfile
+      context: backend/.
+#    image: validolchik/moscow_time:${TAG:-latest}
+    command: python backend/src/manage.py runserver
+    volumes:
+      - /src:/src
+    ports:
+      - "8000:8000"
+#    volumes:
+#      - ./media:/home/time_app/media
